@@ -3,12 +3,12 @@ public class Main{
 	public static void main(String[] args)
 	{
 		
-		int record_book  = 0xC1EC78;
-		long number_telephone = 380994199423l;
-		int two_last_num = 0b10111;
-		int four_last_num = 022317;
-		int result = 14%26+1; 
-		char letter = 'O'; 
+		int record_book  = 0xC1EC8B;
+		long number_telephone = 380957556966l;
+		int two_last_num = 0b100010;
+		int four_last_num = 015466;
+		int result = 10%26+1; 
+		char letter = 'J'; 
 		
 		count_odd_and_even(record_book);
 		count_odd_and_even(number_telephone);

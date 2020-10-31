@@ -1,5 +1,6 @@
 package ua.khpi.oop.naimytenko06; 
-
+  
+import yampolskiy.helper;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -7,7 +8,8 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.Iterator;
 import java.util.Scanner;
-
+ 
+import ua.khpi.oop.naimytenko04.Helper;
 public class Main { 
 	  
 	public static void main(String[] args ) throws IOException, ClassNotFoundException {
@@ -31,6 +33,7 @@ public class Main {
 					"8 -  порівняння контейнерів                 - \r\n" +
 					"9 -  серіалізація                           - \r\n" +
 					"10 -  десіалізація                          - \r\n" +
+					"11 -  завдання іншого студента              - \r\n" +
 					"0 -  завершення програми(видалення контейнера автоматичне) - \r\n" + 
 					"");
 			System.out.println("Введіть команду: ");
@@ -135,8 +138,15 @@ public class Main {
 				FileInputStream fis = new FileInputStream("Serial.ser");
 				ObjectInputStream ois = new ObjectInputStream(fis);
 				Container var = (Container) ois.readObject();
+				container = var;
 				ois.close();
 				
+				
+				break;
+			}
+			case "11": {
+				 
+				 helper.countVowelsAndConsonants(container.toString());
 				break;
 			}
 			case "0": { 
