@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="13.0.2" class="java.beans.XMLDecoder">
+ <array class="ua.khpi.oop.naimytenko08.CarsShop" length="3">
+  <void index="0">
+   <object class="ua.khpi.oop.naimytenko08.CarsShop" id="CarsShop0">
+    <void property="car_brand">
+     <string>mazda</string>
+    </void>
+    <void property="gas_mileage">
+     <void method="put">
+      <string> расход топлива по городу - </string>
+      <int>15</int>
+     </void>
+     <void method="put">
+      <string> расход топлива за городом - </string>
+      <int>10</int>
+     </void>
+    </void>
+    <void property="price">
+     <int>400000</int>
+    </void>
+    <void property="specifications">
+     <string>Хорошое состояние, требуется косметический ремонт</string>
+    </void>
+    <void property="year_create">
+     <int>2020</int>
+    </void>
+   </object>
+  </void>
+  <void index="1">
+   <object class="ua.khpi.oop.naimytenko08.CarsShop" id="CarsShop1">
+    <void property="car_brand">
+     <string>ВАЗ</string>
+    </void>
+    <void property="gas_mileage">
+     <void method="put">
+      <string> расход топлива по городу - </string>
+      <int>15</int>
+     </void>
+     <void method="put">
+      <string> расход топлива за городом - </string>
+      <int>10</int>
+     </void>
+    </void>
+    <void property="price">
+     <int>30000</int>
+    </void>
+    <void property="specifications">
+     <string>Плохое состояние, после ДТП</string>
+    </void>
+    <void property="year_create">
+     <int>1980</int>
+    </void>
+   </object>
+  </void>
+  <void index="2">
+   <object class="ua.khpi.oop.naimytenko08.CarsShop" id="CarsShop2">
+    <void property="car_brand">
+     <string>Rolls-royce</string>
+    </void>
+    <void property="gas_mileage">
+     <void method="put">
+      <string> расход топлива по городу - </string>
+      <int>49</int>
+     </void>
+     <void method="put">
+      <string> расход топлива за городом - </string>
+      <int>30</int>
+     </void>
+    </void>
+    <void property="price">
+     <int>7000000</int>
+    </void>
+    <void property="specifications">
+     <string>Отличное состояние</string>
+    </void>
+    <void property="year_create">
+     <int>2013</int>
+    </void>
+   </object>
+  </void>
+ </array>
+</java>

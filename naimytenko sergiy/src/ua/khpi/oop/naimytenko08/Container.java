@@ -14,7 +14,7 @@ public class Container {
 		System.out.println("¬ведите марку автомобил€");
 		String car_brand = scan.nextLine();
 		System.out.println("ќпишите техническое состо€ние автомобил€");
-		String specifications = scan.nextLine();
+		String technical_condition = scan.nextLine();
 		System.out.println("¬ведите год выпуска авто");
 		int year_create =  scan.nextInt();
 		System.out.println("¬ведите цену авто");
@@ -23,7 +23,7 @@ public class Container {
 		int city_fuel_consumption = scan.nextInt();
 		System.out.println("¬ведите расход топлива вне города");
 		int fuel_consumption_outside_the_city = scan.nextInt(); 
-		CarsShop new_el = new CarsShop(car_brand,year_create,specifications,price,city_fuel_consumption, fuel_consumption_outside_the_city);
+		CarsShop new_el = new CarsShop(car_brand,year_create,technical_condition,price,city_fuel_consumption, fuel_consumption_outside_the_city);
 	
 		CarsShop new_arr[] = new CarsShop[++size];
 		for(int i=0;i<size-1;i++)
